@@ -19,7 +19,7 @@ export const teamMembers = [
     id: 3,
     name: "Selin",
     nickname: "@5_dakikalik_ses_kaydi",
-    description: "Derdini veya bir olayı yazmak yerine her defasında 5 dakikalık podcast kıvamında ses kaydı atan kişi.",
+    description: "Siyahi obezlerin kralı alevi ajanı Eyüp \"The Obese\" Görgün'ün oğlu.",
     photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80",
     role: "Podcast Yayıncısı"
   },
