@@ -17,7 +17,7 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: "Selin",
+    name: "Eren",
     nickname: "@5_dakikalik_ses_kaydi",
     description: "Siyahi obezlerin kralı alevi ajanı Eyüp \"The Obese\" Görgün'ün oğlu.",
     photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80",
