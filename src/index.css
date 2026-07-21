@@ -2,15 +2,15 @@
 
 :root {
   --bg-main: #18191c;
-  --bg-surface: #22242a;
-  --bg-surface-hover: #292c34;
+  --bg-surface: rgba(34, 36, 42, 0.85);
+  --bg-surface-hover: rgba(41, 44, 52, 0.92);
   
   --text-primary: #f1f5f9;
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
   
-  --border-color: #2e323b;
-  --border-color-hover: #475569;
+  --border-color: rgba(255, 255, 255, 0.12);
+  --border-color-hover: rgba(255, 255, 255, 0.25);
   --accent-subtle: #38bdf8;
 
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -28,7 +28,8 @@ html {
 }
 
 body {
-  background-color: var(--bg-main);
+  background: linear-gradient(rgba(18, 19, 22, 0.65), rgba(18, 19, 22, 0.65)), url('/eüpgorgun.jpeg') no-repeat center center fixed;
+  background-size: cover;
   color: var(--text-primary);
   min-height: 100vh;
   line-height: 1.6;
