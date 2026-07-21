@@ -1,0 +1,146 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.badge-tag {
+  display: inline-block;
+  background: rgba(249, 115, 22, 0.1);
+  border: 1px solid var(--accent-squad);
+  color: var(--accent-squad);
+  padding: 0.4rem 1.2rem;
+  border-radius: 50px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.8rem;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: #ffffff;
+  max-width: 850px;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.02em;
+}
+
+.highlight-text {
+  color: var(--accent-squad);
+}
+
+.hero-description {
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  color: var(--text-muted);
+  max-width: 680px;
+  line-height: 1.7;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+/* Scroll Göstergesi (Butonsuz) */
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: auto;
+  opacity: 0.7;
+}
+
+.scroll-arrow {
+  font-size: 1.2rem;
+  color: var(--accent-squad);
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+.scroll-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-faded);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* --- TEAM SECTION --- */
+.team-section {
+  padding-top: 4rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.4rem;
+}
+
+.accent-orange {
+  color: var(--accent-squad);
+}
+
+.section-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-faded);
+}
+
+/* 7 Kutucuklu Responsive Grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  
+  .hero-section {
+    padding-top: 1.5rem;
+    min-height: 60vh;
+  }
+}
+
+/* --- FOOTER --- */
+.footer-section {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-subtle);
+  text-align: center;
+  color: var(--text-faded);
+  font-size: 0.82rem;
+  font-family: 'JetBrains Mono', monospace;
+}
