@@ -5,7 +5,7 @@ export default function Profil({ member }) {
 
   return (
     <div className="profil">
-      <img className="profil-foto" src={member.foto} alt={member.isim} />
+      <img src={member.foto} alt={member.isim} />
       <div className="profil-bilgiler">
         <h2>{member.isim}</h2>
         <p className="kod-adi">{member.kodAdi}</p>

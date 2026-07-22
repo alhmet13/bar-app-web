@@ -15,7 +15,10 @@
     0 0 10px #800241, 0 0 15px #e101ff, 0 0 20px #e101ff, 0 0 25px #e101ff,
     0 0 30px #e101ff, 0 0 35px #e101ff, 0 0 40px #e101ff;
 
-  --accentGradient: linear-gradient(to top, #cf91915a, #f78ac94a);
+  --headerGradient: linear-gradient(to top, #cf91915a, #f78ac94a);
+  --profileGradient: linear-gradient(to right bottom, #eeaaec, #872382);
+  --profileGradient2: linear-gradient(to top left, #eeaaec, #872382);
+  --textShadow: 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff;
 }
 
 body {

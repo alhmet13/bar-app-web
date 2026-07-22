@@ -6,13 +6,14 @@ import liderImg from "../assets/ekipfoto/leader.jpeg";
 export default function AnaSayfa() {
   return (
     <main>
-      <h1 id="baslik">Big Ass Restaruant | BAR</h1>
+      <h1 id="baslik">Big Restaruant | BAR</h1>
       <section id="profiller">
         <div id="lider">
           <img src={liderImg} />
           <div id="lider-bilgiler">
-            <h1>Enes</h1>
-            <p>yazcam</p>
+            <h1>ENES</h1>
+            <p id="lider-kodadi">The BAR</p>
+            <p>Founder, Supreme Leader</p>
           </div>
         </div>
         <div id="uye">
